@@ -1,17 +1,17 @@
 import React from 'react'
 
 
-import '../assets/css/componentes/cartao.css'
+import '../assets/css/components/card.css'
 
-const Sobre = () => {
+const About = () => {
 
   return (
     <main>
       <div className="container">
-        <h2 className="titulo-pagina">Sobre Doguito</h2>
+        <h2 className="title-page">Sobre Doguito</h2>
       </div>
-      <section className="container flex flex--centro">
-        <article className="cartao">
+      <section className="container flex flex--center">
+        <article className="card">
           O blog do doguito foi criado para tirar diversas dúvidas sobre o mundo pet!!!
         </article>
         
@@ -20,4 +20,4 @@ const Sobre = () => {
   )
 }
 
-export default Sobre
+export default About

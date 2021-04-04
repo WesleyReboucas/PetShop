@@ -1,15 +1,15 @@
-.formulario {
+.form {
     margin-top: 2rem;
 }
 
-.formulario__legenda {
-    font-size: var(--fonte-tamanho-formulario-fieldset);
+.form__subtitle {
+    font-size: var(--font-size-form-fieldset);
 
     margin-bottom: 1rem;
 }
 
 .input-container {
-    font-weight: var(--fonte-peso-input);
+    font-weight: var(--font-peso-input);
     position: relative;
     margin-bottom: 1rem;
     display: flex;
@@ -20,7 +20,7 @@
 
 .input {
     box-sizing: border-box;
-    border-bottom: 1px solid var(--cor-secundaria);
+    border-bottom: 1px solid var(--color-secondary);
     padding: 1.375rem 0.5rem 0.5rem;
     height: 3.25rem;
     width: 100%;
@@ -39,7 +39,7 @@
     position: absolute;
     top: 1.375rem;
     left: 0.5rem;
-    font-size: var(--fonte-tamanho-input-label);
+    font-size: var(--font-size-input-label);
 
     transition: all .25s;
 }
@@ -50,25 +50,25 @@
     transition: all .25s;
 }
 
-.input-container--invalido {
+.input-container--invalid {
     margin-bottom: 0.5rem;
 }
 
-.input-container--invalido .input {
-    border: 1px solid var(--cor-aviso);
+.input-container--invalid .input {
+    border: 1px solid var(--color-attention);
     border-radius: 7px;
 }
 
-.input-container--invalido .input-label {
-    color: var(--cor-aviso);
+.input-container--invalid .input-label {
+    color: var(--color-attention);
 }
 
-.input-mensagem-erro {
+.input-message-error {
     display: none;
 }
 
-.input-container--invalido .input-mensagem-erro {
-    color: var(--cor-aviso);
+.input-container--invalid .input-message-error {
+    color: var(--color-attention);
     display: block;
     margin-top: 0.5rem;
     padding-left: 0.5rem;
@@ -76,7 +76,7 @@
 
 .textarea {
     box-sizing: border-box;
-    border: 1px solid var(--cor-secundaria);
+    border: 1px solid var(--color-secondary);
     padding: 0.5rem;    
     border-radius: 7px;
     width: 100%;
@@ -87,7 +87,7 @@
     position: relative;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: var(--fonte-peso-input);
+    font-weight: var(--font-peso-input);
 }
 
 .textarea::placeholder {
@@ -102,7 +102,7 @@
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
-    font-size: var(--fonte-tamanho-input-label);
+    font-size: var(--font-size-input-label);
     transition: all 0.25s;
 }
 
@@ -112,25 +112,25 @@
     transition: all 0.25s;
 }
 
-.textarea-container--invalido {
+.textarea-container--invalid {
     margin-bottom: 0.5rem;
 }
 
-.textarea-container--invalido .textarea {
-    border: 1px solid var(--cor-aviso);
+.textarea-container--invalid .textarea {
+    border: 1px solid var(--color-attention);
 }
 
-.textarea-container--invalido .textarea-label {
-    color: var(--cor-aviso);
+.textarea-container--invalid .textarea-label {
+    color: var(--color-attention);
 }
 
-.textarea-mensagem-erro {
+.textarea-message-error {
     display: none;
 }
 
-.textarea-container--invalido .textarea-mensagem-erro {
+.textarea-container--invalid .textarea-message-error {
     display: block;
-    color: var(--cor-aviso);
+    color: var(--color-attention);
     margin-top: 0.5rem;
     padding-left: 0.5rem;
 }

@@ -1,66 +1,66 @@
-.tabela {
+.table {
     margin-top: 2.25rem;
 
     width: 100%;
 
-    background-color: var(--cor-contraste-claro);
+    background-color: var(--color-contrast-light);
     border-radius: 10px;
-    box-shadow: var(--sombra);
+    box-shadow: var(--shadow);
 
     border-collapse: initial;
 
     text-align: left;
 }
 
-.tabela td:first-of-type, .tabela th:first-of-type {
+.table td:first-of-type, .table th:first-of-type {
     padding-left: 1.75rem;
 }
 
-.tabela td:last-of-type, .tabela th:last-of-type {
+.table td:last-of-type, .table th:last-of-type {
     padding-right: 1.75rem;
 }
 
-.tabela thead {
-    font-size: var(--fonte-tamanho-tabela-cabecalho);
+.table thead {
+    font-size: var(--font-size-table-header);
 }
 
-.tabela th {
+.table th {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
-    border-bottom: 1px solid var(--cor-secundaria);
+    border-bottom: 1px solid var(--color-secondary);
 }
 
-.tabela td {
+.table td {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.tabela__alinhamento--direita {
+.table__alignment--right {
     text-align: right;
 }
 
-.tabela__coluna--p {
+.table__column--p {
     width: 20%;
 }
 
-.tabela__coluna--m {
+.table__column--m {
     width: 25%;
 }
 
-.tabela__coluna--g {
+.table__column--g {
     width: 50%;
 }
 
-.tabela tr:last-of-type td {
+.table tr:last-of-type td {
     padding-bottom: 1.75rem;
 }
 
-.tabela__botoes-controle {
+.table__buttons-control {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.tabela__botoes-controle li:first-of-type {
+.table__buttons-control li:first-of-type {
     margin-right: 2.25rem;
 }
