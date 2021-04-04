@@ -1,4 +1,7 @@
-<h1 align="center"> PetShop </h1>
+<div >
+	<img src=".github/05.png" width="1000px">
+</div>
+
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/wesley-andrade/">	
