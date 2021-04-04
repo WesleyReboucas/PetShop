@@ -82,6 +82,10 @@ $ yarn start
 <a href="https://cursos.alura.com.br/certificate/6a5f012a-9b38-4bf1-a8a2-15cc7c3d936e">
 	<img src="https://img.shields.io/static/v1?label=Alura&message=2021&color=199ffc&style=flat"/>
 </a>
+<a href="https://cursos.alura.com.br/certificate/abae5ead-6f0b-4e26-881f-3e154447d799">
+	<img src="https://img.shields.io/static/v1?label=Alura&message=2021&color=199ffc&style=flat"/>
+</a>
+
 
 ## :page_with_curl: Licencia 
 <a href="https://choosealicense.com/licenses/mit/">
