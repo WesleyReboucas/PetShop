@@ -34,13 +34,20 @@ Assuntos abordados:
 ## Layout
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-	<img src="./public/.github/form-02.png" width="400px">	
-	<img src="./public/.github/form-03.png" width="400px">	
+	<img src=".github/00.png" width="900px">			
 </div>
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-	<img src="./public/.github/form-04.png" width="400px">	
-	<img src="./public/.github/form-05.png" width="400px">	
+	<img src=".github/01.png" width="900px">		
 </div>
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+	<img src=".github/02.png" width="900px">		
+</div>
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+	<img src=".github/04.png" width="900px">		
+</div>
+
+
+
 
 ## Tecnologias
 
